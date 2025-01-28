@@ -1,7 +1,7 @@
 
 # OPENAI Demo
 
-A python project demo OPENAI API
+A python project to demo OPENAI API
 
 ## Prerequisites
 
