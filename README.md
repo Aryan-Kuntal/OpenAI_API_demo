@@ -1,7 +1,7 @@
 
 # Logs Processor
 
-A python project to process error logs
+A python project demo OPENAI API
 
 ## Prerequisites
 
