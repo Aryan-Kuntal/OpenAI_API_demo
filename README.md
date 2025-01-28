@@ -1,5 +1,5 @@
 
-# Logs Processor
+# OPENAI Demo
 
 A python project demo OPENAI API
 
