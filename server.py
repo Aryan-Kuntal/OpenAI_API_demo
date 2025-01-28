@@ -27,7 +27,7 @@ class LLMRequest(BaseModel):
     use_history: Union[bool, None] = False
 
 
-@app.post("/extract/keywords",status_code=200)
+@app.post("/process",status_code=200)
 def capture_intent(request: LLMRequest):
 
     user_input = request.message
@@ -64,7 +64,7 @@ def capture_intent(request: LLMRequest):
 
     return {"status": 200,"GPT Response": gpt_response}
 
-@app.get("/get/history",status_code=200)
+@app.get("/history",status_code=200)
 def get_history():    
     return {"status": 200, "history": history[1:]}
 
